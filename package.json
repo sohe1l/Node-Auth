@@ -1,0 +1,29 @@
+{
+  "name": "node-auth",
+  "version": "1.0.0",
+  "description": "Authentication using Node and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "watch": "nodemon app && mongod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohe1l/Node-Auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohe1l/Node-Auth/issues"
+  },
+  "homepage": "https://github.com/sohe1l/Node-Auth#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.11"
+  }
+}
